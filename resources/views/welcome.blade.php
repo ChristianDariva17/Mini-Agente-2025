@@ -25,8 +25,12 @@
 
         <div class="flex flex-col gap-4">
             <a href="{{ route('login') }}" 
-               class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-500 transition">
-                Iniciar Sesion
+                class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-500 transition">
+                    Iniciar Sesion
+            </a>
+            <a href="{{route('register')}}"
+                class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-500 transition">
+                Registrar
             </a>
         </div>
     </div>
